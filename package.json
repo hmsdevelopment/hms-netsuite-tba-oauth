@@ -1,6 +1,6 @@
 {
   "name": "hms-netsuite-tba-oauth",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "NetSuite Token Based Authentication Module",
   "main": "app.js",
   "scripts": {
