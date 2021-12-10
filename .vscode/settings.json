@@ -1,0 +1,36 @@
+{
+	"files.exclude": {
+		//"node_modules": true,
+		"**/*.js": { "when": "$(basename).ts" },
+		"**/**.js": { "when": "$(basename).tsx" }
+	},
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.matchBrackets": "always",
+	"editor.guides.bracketPairs": true,
+	"editor.guides.bracketPairsHorizontal": true,
+	"editor.guides.highlightActiveBracketPair": true,
+
+	"prettier.enable": true,
+	"prettier.arrowParens": "always",
+	"prettier.bracketSpacing": true,
+	"prettier.endOfLine": "auto",
+	"prettier.printWidth": 120,
+	"prettier.quoteProps": "consistent",
+	"prettier.semi": true,
+	"prettier.singleQuote": false,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+
+	"javascript.inlayHints.enumMemberValues.enabled": true,
+	"javascript.suggest.completeFunctionCalls": true,
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+
+	"typescript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"typescript.suggest.completeFunctionCalls": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
